@@ -56,7 +56,7 @@ basic.forever(function () {
             music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
             maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 50)
             maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOn)
-            basic.pause(500)
+            basic.pause(400)
             maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOff)
             basic.pause(1000)
         }
